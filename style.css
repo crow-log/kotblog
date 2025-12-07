@@ -4,7 +4,7 @@ body {
 
 
 h1{
-    font-family: 'メイリオ', 'Meiryo';
+    font-family: 'メイリオ', 'Meiryo', sans-serif;
     font-size: 2rem;
     text-align: center;
     width: 600px;
@@ -86,5 +86,6 @@ blockquote {
     height: auto;
   }
 }
+
 
 
