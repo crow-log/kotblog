@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1{
+    font-family: sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    margin-top :3rem;
+    margin-bottom: 30px
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 1rem;
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+    letter-spacing: 0.05rem; 
+}
+
+.header { display:flex; align-items:center; gap: 1rem; padding: 0 64px}
+.header img{height: 48px}
+
+@media (max-width: 600px) {
+  .header {
+    font-size: 1rem;
+    display: block; /* 縦並びにする */
+  }
+}
+
+
+a.logo {
+  margin-top: 1rem;
+  font-size: 2rem;
+  align-items: center;
+  font-family: serif;
+  color: black;
+  text-decoration: none;
+  margin-left: 1rem;     /* 画像との間隔 */
+}
+
+.category {
+  display: flex;         
+  justify-content: flex-end; 
+  margin-left: 45rem;
+  gap: 2rem;
+  order: 1000;
+  margin-top: 1rem
+}
+
+.category a {
+  text-decoration: none;
+  color: gray;
+}
+
+a.logo { display:flex; align-items:center; }
+
+blockquote {
+    width: 700px;
+    border: 0.2px solid rgb(212, 212, 212);   /* 枠線の色と太さ */
+    padding: 1em;             /* 内側の余白 */
+    margin: auto;            /* 外側の余白 */
+    background-color: white   /* 背景色（任意） */
+   \}
+
+.url{
+  margin: 1rem;
+}
