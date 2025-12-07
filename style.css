@@ -69,4 +69,20 @@ blockquote {
 
 .url{
   margin: 1rem;
+
+}
+
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+  nav ul {
+    flex-direction: column; /* メニューを縦並びに */
+  }
+  img {
+    max-width: 100%; /* 画像を画面幅に合わせる */
+    height: auto;
+  }
 }
