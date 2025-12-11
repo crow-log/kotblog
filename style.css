@@ -43,19 +43,6 @@ a.logo {
   margin-left: 1rem;     /* 画像との間隔 */
 }
 
-.category {
-  display: flex;         
-  justify-content: flex-end; 
-  margin-left: 45rem;
-  gap: 2rem;
-  order: 1000;
-  margin-top: 1rem
-}
-
-.category a {
-  text-decoration: none;
-  color: gray;
-}
 
 a.logo { display:flex; align-items:center; }
 
@@ -86,6 +73,7 @@ blockquote {
     height: auto;
   }
 }
+
 
 
 
